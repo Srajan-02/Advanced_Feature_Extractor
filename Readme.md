@@ -1,3 +1,5 @@
+![project5](https://github.com/user-attachments/assets/1613c2b5-c230-48c0-9e94-0fef8e7370c8)
+
 ## Overview
 This project implements a deep learning pipeline for analyzing skin cancer images from the HAM10000 dataset. It uses a combination of MobileNetV2-based feature extraction and autoencoder-based dimensionality reduction to process and visualize skin lesion images.
 
@@ -111,6 +113,16 @@ The project provides multiple visualization techniques:
 - Training history visualization
 - Feature space visualization before and after dimensionality reduction
 - Comparison of different reduction techniques (PCA vs. t-SNE)
+
+## Output
+- Normal features extraction by model for all classes:
+
+![mobi](https://github.com/user-attachments/assets/b7b67c63-114b-4aaf-9c65-7e26160e07f7)
+
+- Visualization of all classes features by using T-sne which are extracted from AutoEncoder:
+
+![auti](https://github.com/user-attachments/assets/d42828a8-caac-43b2-97bc-008a5b27c5ef)
+
 
 ## Notes
 - Image size is set to 32x32 pixels for processing
